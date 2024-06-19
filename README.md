@@ -1,7 +1,20 @@
-# Add this for facebook, instagram, youtube and other icons 
-fontawesome link add to html to activate all the symbols such as instagram, facebook...
+# 📖 SOBRE:
+Projeto de um web-site de streaming inspirado na netflix utilizando a TMDB api. Essa aplicação é para todo o tipo de publico alvo,
+desde idosos até crianças.
 
-https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
 
 
-for index.html, style.css and main.js follow up with the video.
+# ⚙ FERRAMENTAS:
+✅HTML
+✅CSS
+✅JAVASCRIPT
+✅BANCO DE DADOS EM JSON
+✅TMDB API
+
+
+
+# 😎 INTEGRANTES:
+- João Vitor Rosa
+- Júlia Silverio
+- Igor Nakajima
+- Felipe Paulino
