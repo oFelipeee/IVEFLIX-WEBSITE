@@ -1,0 +1,167 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+header img {
+    height: 150px;
+    width: 150px;
+}
+header a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.sidebar {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li {
+    padding: 10px 0;
+}
+.sidebar ul li a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+.sidebar ul li a img {
+    margin-right: 10px;
+}
+.content {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.content h2 {
+    margin-top: 0;
+}
+.content .section {
+    margin-bottom: 20px;
+}
+.content .section h3 {
+    margin-top: 0;
+}
+.content .section .card {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .section .card .info {
+    flex-grow: 1;
+}
+.content .section .card .info h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+.content .section .card .info p {
+    margin: 0;
+    color: #666;
+}
+.content .section .card .action {
+    margin-left: 20px;
+}
+.content .section .card .action a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: 500;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    header a {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .sidebar {
+        width: 100%;
+        float: none;
+        margin: 0 0 20px 0;
+    }
+    .content {
+        padding: 10px;
+    }
+    .content .section .card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .content .section .card .action {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header img {
+        height: 30px;
+    }
+    header a {
+        font-size: 12px;
+    }
+    .content .section .card .info h4 {
+        font-size: 14px;
+    }
+}
+
+/* Styles for Update Password Form */
+.update-password-form {
+    display: none;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.update-password-form h3 {
+    margin-top: 0;
+}
+.update-password-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.update-password-form button {
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.update-password-form .fa-eye {
+    position: absolute;
+    right: 30px;
+    top: 34px;
+    cursor: pointer;
+}
